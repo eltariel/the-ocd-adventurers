@@ -1,0 +1,92 @@
+{
+  "id": "the-ocd-adventurers",
+  "name": "the-ocd-adventurers",
+  "title": "The OCD Adventurers",
+  "description": "A collection of maps from various sources put together by some strange with strong opinions and an inability to call something \"finished\".",
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.8.6",
+  "compatibleCoreVersion": "10",
+  "compatibility": {
+    "minimum": "0.8.6",
+    "verified": "10",
+    "maximum": "10"
+  },
+  "author": "Eltariel",
+  "authors": [
+    {
+      "name": "Eltariel"
+    }
+  ],
+  "packs": [
+    {
+      "name": "actors",
+      "label": "The OCD Adventurers",
+      "path": "/packs/actors.db",
+      "entity": "Actor",
+      "type": "Actor",
+      "system": "dnd5e"
+    },
+    {
+      "name": "items",
+      "label": "The OCD Adventurers",
+      "path": "/packs/items.db",
+      "entity": "Item",
+      "type": "Item",
+      "system": "dnd5e"
+    },
+    {
+      "name": "journals",
+      "label": "The OCD Adventurers",
+      "path": "/packs/journals.db",
+      "entity": "JournalEntry",
+      "type": "JournalEntry"
+    },
+    {
+      "name": "macros",
+      "label": "The OCD Adventurers",
+      "path": "/packs/macros.db",
+      "entity": "Macro",
+      "type": "Macro"
+    },
+    {
+      "name": "maps",
+      "label": "The OCD Adventurers",
+      "path": "/packs/maps.db",
+      "entity": "Scene",
+      "type": "Scene"
+    }
+  ],
+  "esmodules": [
+    "./scripts/init.js"
+  ],
+  "dependencies": [
+    {
+      "name": "scene-packer",
+      "manifest": "https://github.com/League-of-Foundry-Developers/scene-packer/releases/latest/download/module.json",
+      "type": "module"
+    },
+    {
+      "name": "levels",
+      "manifest": "https://github.com/theripper93/Levels/releases/latest/download/module.json",
+      "type": "module"
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "scene-packer",
+        "type": "module",
+        "manifest": "https://github.com/League-of-Foundry-Developers/scene-packer/releases/latest/download/module.json"
+      },
+      {
+        "id": "levels",
+        "type": "module",
+        "manifest": "https://github.com/theripper93/Levels/releases/latest/download/module.json"
+      }
+    ]
+  },
+  "url": "https://foundry.eltariel.com/modules",
+  "manifest": "",
+  "download": "",
+  "manifestPlusVersion": "1.2.0"
+}
