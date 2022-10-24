@@ -86,7 +86,7 @@
     ]
   },
   "url": "https://foundry.eltariel.com/modules",
-  "manifest": "",
-  "download": "",
+  "manifest": "https://raw.githubusercontent.com/eltariel/the-ocd-adventurers/main/module.json",
+  "download": "https://github.com/eltariel/the-ocd-adventurers/archive/refs/heads/main.zip",
   "manifestPlusVersion": "1.2.0"
 }
