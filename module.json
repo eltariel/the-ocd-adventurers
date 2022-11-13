@@ -3,7 +3,7 @@
   "name": "the-ocd-adventurers",
   "title": "The OCD Adventurers",
   "description": "A collection of maps from various sources put together by some strange people with strong opinions and an inability to call something \"finished\".",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "minimumCoreVersion": "0.8.6",
   "compatibleCoreVersion": "10",
   "compatibility": {
